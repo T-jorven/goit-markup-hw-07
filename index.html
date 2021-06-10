@@ -260,7 +260,7 @@
               <div class="team-card">
                 <h3 class="team-card__heading">Николай Тарасов</h3>
                 <p class="team-card__role">Marketing</p>
-                <ul class="social-media list">
+                <ul class="team-card__media list">
                   <li>
                     <a href="" class="media-item">
                       <svg class="media-icon" width="20px" height="20px">
@@ -303,7 +303,7 @@
               <div class="team-card">
                 <h3 class="team-card__heading">Михаил Ермаков</h3>
                 <p class="team-card__role">UI Designer</p>
-                <ul class="social-media list">
+                <ul class="team-card__media list">
                   <li>
                     <a href="" class="media-item">
                       <svg class="media-icon" width="20px" height="20px">
@@ -339,45 +339,45 @@
         </div>
       </section>
       <section class="clients-section">
-        <div class="container clients">
+        <div class="container temporary-padding">
           <h2 class="title">Постоянные клиенты</h2>
-          <ul class="list clients-flex">
-            <li class="company-list-item">
+          <ul class="list clients">
+            <li class="clients__item">
               <a href="" class="company-link">
                 <svg class="icon-company" width="70px" height="70px">
                   <use href="images/sprite.svg#icon-yaandgo"></use>
                 </svg>
               </a>
             </li>
-            <li class="company-list-item">
+            <li class="clients__item">
               <a href="" class="company-link">
                 <svg class="icon-company" width="70px" height="70px">
                   <use href="images/sprite.svg#icon-company-tagline-here"></use>
                 </svg>
               </a>
             </li>
-            <li class="company-list-item">
+            <li class="clients__item">
               <a href="" class="company-link">
                 <svg class="icon-company" width="70px" height="70px">
                   <use href="images/sprite.svg#icon-company"></use>
                 </svg>
               </a>
             </li>
-            <li class="company-list-item">
+            <li class="clients__item">
               <a href="" class="company-link">
                 <svg class="icon-company" width="70px" height="70px">
                   <use href="images/sprite.svg#icon-foster-peters"></use>
                 </svg>
               </a>
             </li>
-            <li class="company-list-item">
+            <li class="clients__item">
               <a href="" class="company-link">
                 <svg class="icon-company" width="70px" height="70px">
                   <use href="images/sprite.svg#icon-brand"></use>
                 </svg>
               </a>
             </li>
-            <li class="company-list-item">
+            <li class="clients__item">
               <a href="" class="company-link">
                 <svg class="icon-company" width="70px" height="70px">
                   <use href="images/sprite.svg#icon-company-tag-line"></use>
@@ -389,14 +389,14 @@
       </section>
     </main>
     <footer class="footer-styles">
-      <div class="container footer-flex">
+      <div class="container footer-body">
         <div>
           <a href="./index.html" class="logo-body"
             >Web<span class="logo-body__footer">Studio</span></a
           >
-          <address class="footer-address">
-            <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="contacts list">
+          <address class="address">
+            <p class="address__location">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="address__contacts list">
               <li class="contacts">
                 <a href="mailto:info@example.com" class="contact-footer link"
                   >info@example.com</a
@@ -411,8 +411,8 @@
           </address>
         </div>
         <div class="join">
-          <p class="join-text">Присоединяйтесь</p>
-          <ul class="list flex-join">
+          <p class="join__text">Присоединяйтесь</p>
+          <ul class="list join__media">
             <li class="media-list-item">
               <a href="" class="media-item-footer">
                 <svg class="media-icon-footer" width="20px" height="20px">
@@ -444,12 +444,12 @@
           </ul>
         </div>
         <div class="subscription">
-          <p class="join-text">Подпишитесь на рассылку</p>
-          <form class="subscription-box">
+          <p class="subscription__heading">Подпишитесь на рассылку</p>
+          <form class="subscription__body">
             <input class="email-input" type="email" placeholder="E-mail" />
             <button class="subscription-btn" type="submit">
-              <span class="subscribe-btn-text">Подписаться</span>
-              <svg class="icon-send" width="24px" height="24px">
+              <span class="subscription-btn__text">Подписаться</span>
+              <svg class="subscription-btn__icon" width="24px" height="24px">
                 <use href="images/sprite.svg#icon-send"></use>
               </svg>
             </button>
@@ -465,8 +465,8 @@
           </svg>
         </button>
         <form class="modal-form">
-          <p class="modal-form-head">Оставьте свои данные, мы вам перезвоним</p>
-          <label class="modal-form-field">
+          <p class="modal-form__head">Оставьте свои данные, мы вам перезвоним</p>
+          <label class="modal-form__field">
             Имя
             <span class="modal-form-input-wrapper">
               <input
@@ -481,7 +481,7 @@
               </svg>
             </span>
           </label>
-          <label class="modal-form-field">
+          <label class="modal-form__field">
             <span class="form-field-name">Телефон</span>
             <span class="modal-form-input-wrapper">
               <input
@@ -497,7 +497,7 @@
               </svg>
             </span>
           </label>
-          <label class="modal-form-field">
+          <label class="modal-form__field">
             <span class="form-field-name">Почта</span>
             <span class="modal-form-input-wrapper">
               <input
@@ -511,7 +511,7 @@
               </svg>
             </span>
           </label>
-          <label class="modal-form-field">
+          <label class="modal-form__field">
             <span class="form-field-name">Коментарий</span>
             <textarea
               name="user-message"
@@ -540,7 +540,7 @@
             >
             <a class="modal-form-policy-link" href="">Условия договора</a>
           </label>
-          <button type="submit" class="modal-form-btn">Отправить</button>
+          <button type="submit" class="modal-form__btn">Отправить</button>
         </form>
       </div>
     </div>

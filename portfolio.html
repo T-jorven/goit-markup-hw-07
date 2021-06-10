@@ -221,53 +221,72 @@
         </div>
     </main>
     <footer class="footer-styles">
-        <div class="container footer-flex">
-            <div>
-                <a href="./index.html" class="logo-body">Web<span class="logo-body__footer">Studio</span></a>
-                <address class="footer-address">
-                    <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
-                    <ul class="contacts list">
-                        <li class="contacts"><a href="mailto:info@example.com"
-                                class="contact-footer link">info@example.com</a></li>
-                        <li class="contacts"><a href="tel:+380991111111" class="contact-footer link">+38 099 111 11 11</a>
-                        </li>
-                    </ul>
-                </address>
-            </div>
-            <div class="join">
-                <p class="join-text">Присоединяйтесь</p>
-                <ul class="list flex-join">
-                    <li class="media-list-item">
-                        <a href="" class="media-item-footer">
-                            <svg class="media-icon-footer" width="20px" height="20px">
-                                <use href="images/sprite.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li  class="media-list-item">
-                        <a href="" class="media-item-footer">
-                            <svg class="media-icon-footer" width="20px" height="20px">
-                                <use href="images/sprite.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li  class="media-list-item">
-                        <a href="" class="media-item-footer">
-                            <svg class="media-icon-footer" width="20px" height="20px">
-                                <use href="images/sprite.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li  class="media-list-item">
-                        <a href="" class="media-item-footer">
-                            <svg class="media-icon-footer" width="20px" height="20px">
-                                <use href="images/sprite.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container footer-body">
+        <div>
+          <a href="./index.html" class="logo-body"
+            >Web<span class="logo-body__footer">Studio</span></a
+          >
+          <address class="address">
+            <p class="address__location">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="address__contacts list">
+              <li class="contacts">
+                <a href="mailto:info@example.com" class="contact-footer link"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="contacts">
+                <a href="tel:+380991111111" class="contact-footer link"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
         </div>
-    </footer>
+        <div class="join">
+          <p class="join__text">Присоединяйтесь</p>
+          <ul class="list join__media">
+            <li class="media-list-item">
+              <a href="" class="media-item-footer">
+                <svg class="media-icon-footer" width="20px" height="20px">
+                  <use href="images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-list-item">
+              <a href="" class="media-item-footer">
+                <svg class="media-icon-footer" width="20px" height="20px">
+                  <use href="images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-list-item">
+              <a href="" class="media-item-footer">
+                <svg class="media-icon-footer" width="20px" height="20px">
+                  <use href="images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-list-item">
+              <a href="" class="media-item-footer">
+                <svg class="media-icon-footer" width="20px" height="20px">
+                  <use href="images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscription">
+          <p class="subscription__heading">Подпишитесь на рассылку</p>
+          <form class="subscription__body">
+            <input class="email-input" type="email" placeholder="E-mail" />
+            <button class="subscription-btn" type="submit">
+              <span class="subscription-btn__text">Подписаться</span>
+              <svg class="subscription-btn__icon" width="24px" height="24px">
+                <use href="images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
 </body>
 </html>

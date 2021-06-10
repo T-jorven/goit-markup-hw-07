@@ -351,7 +351,7 @@ img {
 .media-item:focus .media-icon {
   fill: var(--clear-white);
 }
-.clients {
+.temporary-padding {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -359,7 +359,7 @@ img {
 .clients-section {
   background-color: var(--clear-white);
 }
-.clients-flex {
+.clients {
   display: flex;
   justify-content: space-between;
   width: auto;
@@ -479,10 +479,10 @@ img {
   color: var(--contact-footer);
   letter-spacing: 0.03em;
 }
-.contacts:not(:last-child) {
+.address__contacts:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer-address {
+.address {
   color: var(--clear-white);
   font-style: normal;
   font-weight: normal;
@@ -495,14 +495,14 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.location {
+.address__location {
   margin-bottom: 9px;
   margin-top: 0;
 }
 .join {
   width: 206px;
 }
-.join-text {
+.subscription__heading {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
@@ -511,10 +511,10 @@ img {
   color: var(--clear-white);
   margin-bottom: 20px;
 }
-.flex-join {
+.join__media {
   display: flex;
 }
-.footer-flex {
+.footer-body {
   display: flex;
   align-items: baseline;
 }
@@ -554,7 +554,7 @@ img {
 .subscription {
   margin-left: auto;
 }
-.subscription-box {
+.subscription__body {
   display: flex;
 }
 .subscription-btn {
@@ -596,7 +596,7 @@ img {
   padding-left: 16px;
   color: rgba(255, 255, 255, 0.6);
 }
-.subscribe-btn-text {
+.subscription-btn__text {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
@@ -606,7 +606,7 @@ img {
 .subscription-btn:focus {
   background: var(--button-focus);
 }
-.icon-send {
+.subscription-btn__icon {
   fill: var(--clear-white);
   margin-left: 10px;
 }
@@ -667,7 +667,7 @@ img {
   padding-left: 40px;
   padding-right: 40px;
 }
-.modal-form-field {
+.modal-form__field {
   margin-top: 10px;
   color: var(--form-text-color);
   font-size: 12px;
@@ -709,7 +709,7 @@ img {
   outline: none;
   border-color: var(--accent-color);
 }
-.modal-form-head {
+.modal-form__head {
   font-size: 20px;
   line-height: 1.1;
   font-weight: 700;
@@ -815,7 +815,7 @@ img {
   opacity: 0;
 }
 
-.modal-form-btn {
+.modal-form__btn {
   background-color: var(--accent-color);
   width: 200px;
   height: 50px;
@@ -834,8 +834,8 @@ img {
   margin-top: 30px;
   transition: background 250ms var(--transition-cubic);
 }
-.modal-form-btn:hover,
-.modal-form-btn:focus {
+.modal-form__btn:hover,
+.modal-form__btn:focus {
   background: var(--button-focus);
 }
 .modal-form-message {
