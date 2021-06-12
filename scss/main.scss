@@ -1,0 +1,16 @@
+//UTILS
+@import "./utils/variables.scss";
+
+// BASE
+@import "./base/common";
+@import "./base/container";
+
+
+//COMPONENTS 
+@import "./components/contacts";
+@import "./components/logo";
+@import "./components/nav";
+
+//LAYOUT
+@import "./layout/header";
+@import "./layout/hero"

@@ -1,0 +1,25 @@
+.contact {
+	color: var(--main-text-color);
+	font-weight: 500;
+	display: flex;
+	text-align: center;
+	line-height: 1.14;
+	transition: color 250ms var(--transition-cubic);
+	&:hover {
+		color: var(--accent-color);
+		fill: var(--accent-color);
+	}
+	&:focus {
+		color: var(--accent-color);
+		fill: var(--accent-color);
+	}
+}
+.contact-body {
+	display: flex;
+	margin-left: auto;
+}
+.contact-body__item {
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
+}
