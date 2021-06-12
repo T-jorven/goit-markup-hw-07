@@ -1,3 +1,6 @@
+.product-animation {
+  position: relative;
+}
 .overlay {
 	position: absolute;
 	top: 0;
@@ -10,18 +13,13 @@
 	transition: transform 250ms var(--transition-cubic);
 }
 .portfolio-link {
-	&:focus {
-		.overlay {
+	&:focus .overlay {
 			transform: translateY(0%);
-			opacity: 1;
-		}
-	}
-	&:hover {
-		.overlay {
+			opacity: 1;}
+
+	&:hover .overlay {
 			transform: translateY(0%);
-			opacity: 1;
-		}
-	}
+			opacity: 1;}
 }
 .product-animation {
 	overflow: hidden;

@@ -614,6 +614,10 @@ img {
   margin-right: 50px;
 }
 
+.product-animation {
+  position: relative;
+}
+
 .overlay {
   position: absolute;
   top: 0;
