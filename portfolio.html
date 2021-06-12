@@ -12,8 +12,8 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header class="header-site">
-        <div class="container header-body">
+    <header class="header">
+        <div class="container header__body">
             <nav class="nav-body">
                 <a href="./index.html" class="logo-body">Web<span class="logo-body__header">Studio</span></a>
                 <ul class="list nav-body__menu">
@@ -23,24 +23,28 @@
                 </ul>
             </nav>
             <ul class="list contact-body">
-                <li class="contact-body__item"><a href="mailto:example@mail.ru" class="contact link">
-                        <svg class="icon-envelope">
-                            <use href="images/sprite.svg#icon-envelope"></use>
-                        </svg>
-                        info@devstudio.com
-                    </a></li>
-                <li class="contact-body__item"><a href="tel:+380961111111" class="contact link">
-                        <svg class="icon-phone">
-                            <use href="images/sprite.svg#icon-phone"></use>
-                        </svg>
-                        +38 096 111 11 11
-                    </a></li>
+               <li class="contact-body__item">
+            <a href="mailto:example@mail.ru" class="contact link">
+              <svg class="contact__icon-envelope">
+                <use href="images/sprite.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="contact-body__item">
+            <a href="tel:+380961111111" class="contact link">
+              <svg class="contact__icon-phone">
+                <use href="images/sprite.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
             </ul>
         </div>
     </header>
     <main>
         <div class="container section">
-            <ul class="list filter">
+            <ul class="list filter filter__body">
                 <li class="filter_item">
                     <button type="button" class="filtering-button">Все</button>
                 </li>
@@ -242,7 +246,7 @@
             </ul>
           </address>
         </div>
-        <div class="join">
+        <div class="join join__body">
           <p class="join__text">Присоединяйтесь</p>
           <ul class="list join__media">
             <li class="media-list-item">

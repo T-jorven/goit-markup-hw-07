@@ -24,14 +24,14 @@
 	}
 }
 
-.icon-envelope {
+.contact__icon-envelope {
   width: 16px;
   height: 12px;
   fill: currentColor;
   margin-right: 10px;
 }
 
-.icon-phone {
+.contact__icon-phone {
   width: 10px;
   height: 16px;
   fill: currentColor;
@@ -50,13 +50,16 @@
 	font-weight: normal;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
-	margin-right: 70px;
+	
 	&__location {
  	 margin-bottom: 9px;
   	 margin-top: 0;}
+	&__body {
+		margin-right: 70px;}
 }
 .address__contacts {
 	&:not(:last-child) {
 		margin-bottom: 9px;
 	}
 }
+
