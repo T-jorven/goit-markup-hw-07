@@ -8,9 +8,15 @@
 
 //COMPONENTS 
 @import "./components/contacts";
+@import "./components/filtering-button";
 @import "./components/logo";
 @import "./components/nav";
+@import "./components/portfolio-cards";
 
 //LAYOUT
+@import "./layout/advanteges";
 @import "./layout/header";
-@import "./layout/hero"
+@import "./layout/hero";
+@import "./layout/overview";
+@import "./layout/team";
+@import "./layout/clients";
