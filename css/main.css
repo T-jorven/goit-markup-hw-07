@@ -567,6 +567,10 @@ img {
   color: var(--logo2-footer);
 }
 
+.menu-list:not(:last-child) {
+  margin-right: 50px;
+}
+
 .menu-list--current {
   color: var(--accent-color);
   font-weight: 500;
@@ -615,10 +619,6 @@ img {
 .nav-body__menu {
   display: flex;
   flex-direction: row;
-}
-
-.menu-list:not(:last-child) {
-  margin-right: 50px;
 }
 
 .product-animation {
@@ -706,16 +706,16 @@ img {
   justify-content: space-between;
 }
 
-.portfolio-link {
+.portfolio__link {
   display: block;
   transition: box-shadow 250ms var(--transition-cubic);
 }
 
-.portfolio-link:hover {
+.portfolio__link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-link:focus {
+.portfolio__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 

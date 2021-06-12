@@ -1,3 +1,9 @@
+.menu-list {
+	&:not(:last-child) {
+		margin-right: 50px;
+	}
+	
+}
 .menu-list--current {
 	color: var(--accent-color);
 	font-weight: 500;
@@ -39,13 +45,8 @@
 	align-items: center;
     &__menu {
 	display: flex;
-	flex-direction: row;
-}
+	flex-direction: row;}
 }
 
-.menu-list {
-	&:not(:last-child) {
-		margin-right: 50px;
-	}
-}
+
 
